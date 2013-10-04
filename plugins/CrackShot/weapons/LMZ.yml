@@ -24,7 +24,7 @@ LMZ:
         Bullet_Spread: 1
     Burstfire:
         Enable: true
-        Shots_Per_Burst: 4
+        Shots_Per_Burst: 2
         Delay_Between_Shots_In_Burst: 4
     Reload:
         Enable: true
