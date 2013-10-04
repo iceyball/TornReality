@@ -1,0 +1,51 @@
+Heatmaker:
+    Item_Information:
+        Item_Name: "&7Heatmaker"
+        Item_Type: 351~7
+        Item_Lore: "&eHigh&7 power automatic.|&eSeven&7 second reload.|&7Clay|&cHigh&f firerate, &cHigh &fdamage.|&9Night vision scope."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    SignShops:
+        Enable: true
+        Price: 266-10
+        Sign_Gun_ID: 95
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Right_Click_To_Shoot: true
+        Delay_Between_Shots: 5
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 80
+        Projectile_Damage: 10
+        Bullet_Spread: 1
+        Sounds_Shoot: ITEM_BREAK-2-2-2,NOTE_SNARE_DRUM-2-0-2
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 337
+        Sounds_Out_Of_Ammo: NOTE_PLING-2-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-2-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 30
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 130
+        Sounds_Reloading: FIRE_IGNITE-2-1-4,DOOR_OPEN-2-2-6,FIRE_IGNITE-2-1-36,HURT_FLESH-2-0-37,DOOR_CLOSE-2-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 0
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-2
+    Crafting:
+        Enable: true
+        Shaped: true
+        Ingredients: 0,0,0,264,264,331,0,264,17
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 5
+        Zoom_Bullet_Spread: 1
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-2-2-0

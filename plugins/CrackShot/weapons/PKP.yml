@@ -1,0 +1,35 @@
+PKP:
+    Item_Information:
+        Item_Name: "&ePKP"
+        Item_Type: 280
+        Item_Lore: "&eGo crazy. ;)"
+        Inventory_Control: secondary_weapons
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0
+        Projectile_Amount: 15
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 12
+        Bullet_Spread: 3
+        Sounds_Shoot: ZOMBIE_WOOD-2-0-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Reload:
+        Enable: true
+        Reload_Amount: 200
+        Reload_Duration: 70
+        Sounds_Reloading: LEVEL_UP-1-1-10,FIRE_IGNITE-1-2-28
+    Firearm_Action:
+        Type: slide
+        Open_Duration: 0
+        Close_Duration: 0
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0

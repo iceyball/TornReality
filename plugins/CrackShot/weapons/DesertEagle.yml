@@ -1,0 +1,34 @@
+DesertEagle:
+    Item_Information:
+        Item_Name: "&eDesert Eagle"
+        Item_Type: 104
+        Item_Lore: "&eDual pistols.|&eLeft/right click to shoot."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Dual_Wield: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 5
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 3
+        Bullet_Spread: 2
+        Sounds_Shoot: ZOMBIE_WOOD-1-0-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.75
+    Reload:
+        Enable: true
+        Reload_Amount: 7
+        Reload_Duration: 60
+        Sounds_Out_Of_Ammo: CLICK-1-1-0
+        Sounds_Reloading: DOOR_OPEN-1-2-4,DOOR_OPEN-1-2-8,DOOR_CLOSE-1-2-23,DOOR_CLOSE-1-2-38
+        Dual_Wield:
+            Single_Reload_Duration: 60
+            Sounds_Single_Reload: DOOR_OPEN-1-2-4,DOOR_CLOSE-1-2-23
+            Sounds_Shoot_With_No_Ammo: CLICK-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true

@@ -1,0 +1,41 @@
+P226:
+    Item_Information:
+        Item_Name: "&eP226"
+        Item_Type: 351~7
+        Item_Lore: "&eStarter pistol. | &eEveryone spawns with one."
+        Inventory_Control: secondary_weapons
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 6
+        Recoil_Amount: 0.5
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 20
+        Projectile_Damage: 1
+        Bullet_Spread: 2
+        Sounds_Shoot: ZOMBIE_METAL-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Ammunition:
+        Enable: true
+        Ammo_Item_ID: 295
+    Reload:
+        Enable: true
+        Reload_Amount: 13
+        Reload_Duration: 70
+        Take_Ammo_On_Reload: true
+        Take_Ammo_As_Magazine: true
+        Sounds_Reloading: LEVEL_UP-1-1-10,FIRE_IGNITE-1-2-28
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true

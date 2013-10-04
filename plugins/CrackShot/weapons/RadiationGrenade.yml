@@ -1,0 +1,28 @@
+Radiationgrenade:
+    Item_Information:
+        Item_Name: "&eRadiation Grenade"
+        Item_Type: 351~8
+        Item_Lore: "&cLethal. Irradiates within line of sight|&cLarge &fAOE.|&eFive&f second timer."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Projectile_Amount: 1
+        Projectile_Type: grenade
+        Grenade_Type: 351~8
+        Projectile_Speed: 15
+        Sounds_Shoot: FIRE_IGNITE-2-0-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_No_Damage: true
+        Explosion_Radius: 20
+        Explosion_Potion_Effect: WITHER-1000000-2
+        Explosion_Delay: 100
+        Sounds_Victim: LEVEL_UP-1-0-0
+        Sounds_Explode: ANVIL_LAND-2-1-0
+    Crafting:
+        Enable: true
+        Shaped: true
+        Ingredients: 331,331,331,331,289,331,331,331,331
+    Extras:
+        One_Time_Use: true

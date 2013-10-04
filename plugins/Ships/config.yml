@@ -1,0 +1,20 @@
+airship:
+  RequiredPercent: 20
+  TheMinimumNumberOfBlocks: 30
+  TheMaximumNumberOfBlocks: 1000
+  FuelId: 280
+  FuelIdAlt: 331
+  Speed: 10
+ship:
+  RequiredPercent: 15
+  TheMinimumNumberOfBlocks: 30
+  TheMaximumNumberOfBlocks: 1000
+  Speed: 8
+marsship:
+  RequiredPercent: 10
+  TheMinimumNumberOfBlocks: 30
+  TheMaximumNumberOfBlocks: 1000
+  Speed: 20
+Other:
+  ProtectFire: true
+  WeakServer: false

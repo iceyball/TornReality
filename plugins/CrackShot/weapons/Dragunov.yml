@@ -1,0 +1,50 @@
+Dragunov:
+    Item_Information:
+        Item_Name: "&9Dragunov"
+        Item_Type: 351~12
+        Item_Lore: "&eMedium&7 powered sniper rifle.|&cFifteen&7 second reload.|&8Flint|&9Must zoom in to fire. Large clip."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    SignShops:
+        Enable: true
+        Price: 266-10
+        Sign_Gun_ID: 95
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Right_Click_To_Shoot: true
+        Delay_Between_Shots: 20
+        Recoil_Amount: 6
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 1000
+        Projectile_Damage: 12
+        Bullet_Spread: 0
+        Sounds_Shoot: ITEM_BREAK-2-2-2,NOTE_SNARE_DRUM-2-0-2
+    Crafting:
+        Enable: true
+        Shaped: true
+        Ingredients: 0,0,0,265,265,265,0,331,17
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 318
+        Sounds_Out_Of_Ammo: NOTE_PLING-2-2-0
+        Sounds_Shoot_With_No_Ammo: NOTE_STICKS-2-2-0
+    Reload:
+        Enable: true
+        Reload_Amount: 8
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 300
+        Sounds_Reloading: FIRE_IGNITE-2-1-4,DOOR_OPEN-2-2-6,FIRE_IGNITE-2-1-36,HURT_FLESH-2-0-37,DOOR_CLOSE-2-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-2
+    Scope:
+        Enable: true
+        Night_Vision: false
+        Zoom_Amount: 9
+        Zoom_Bullet_Spread: 0
+        Zoom_Before_Shooting: true
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 3
