@@ -1,0 +1,41 @@
+#Original Gun (Don't belive it is based off anything)
+LMZ:
+    Item_Information:
+        Item_Name: "&eLMZ"
+        Item_Type: 104
+        Item_Lore: "&eMy Little Friend!"
+        Inventory_Control: 
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 50
+        Projectile_Damage: 4
+        Bullet_Spread: 2
+        Sounds_Shoot: IRONGOLEM_HIT-4-2-0,ZOMBIE_METAL-4-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 4
+        Delay_Between_Shots_In_Burst: 4
+    Reload:
+        Enable: true
+        Reload_Amount: 40
+        Reload_Duration: 60
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-1-1-4,DOOR_OPEN-1-2-6,FIRE_IGNITE-1-1-36,HURT_FLESH-1-0-37,DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 5
+        Close_Shoot_Delay: 6
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
