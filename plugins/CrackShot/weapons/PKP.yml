@@ -10,7 +10,7 @@ PKP:
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
 
-        Delay_Between_Shots: 1
+        Delay_Between_Shots: 20
         Recoil_Amount: 0
         Projectile_Amount: 1
         Projectile_Type: snowball
