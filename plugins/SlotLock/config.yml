@@ -1,0 +1,182 @@
+#Just put - <all> to enable all worlds.
+#slotlock contains the players slots you want locked (0-39).
+#(0-8) are the hot-bar, (9-35) are the inventory, and (36-39) is the armor.
+#item is the item locked in the slot, amount is the amount of items,
+#permission is the permission node you must have for the slots to be locked, 
+#name is the item name, and lore is the item lore.
+#The book section is for what book name in the book file will be used.
+#Command is the command that will be run, null for none.
+#Backpacks make it so you only start with the quick bar and armor bar.
+#Then when you craft the 3 backpack sizes, you unlock more slots.
+#Backpacks unlock the slots in their slots section.
+enabledworlds:
+  - test_slot_lock_world
+  - <all>
+#  - world
+#  - world_the_end
+groups: 1
+slotlock:
+    9:
+      item: 68
+      amount: 1
+      permission: slot.nine
+      name: Locked Slot
+      
+    10:
+      item: 68
+      amount: 1
+      permission: slot.ten
+      name: Locked Slot
+      
+    11:
+      item: 68
+      amount: 1
+      permission: slot.eleven
+      name: Locked Slot
+      
+    12:
+      item: 68
+      amount: 1
+      permission: slot.twelve
+      name: Locked Slot
+
+    13:
+      item: 68
+      amount: 1
+      permission: slot.thirten
+      name: Locked Slot
+      
+    14:
+      item: 68
+      amount: 1
+      permission: slot.fourteen
+      name: Locked Slot
+      
+    15:
+      item: 68
+      amount: 1
+      permission: slot.fifteen
+      name: Locked Slot
+      
+    16:
+      item: 68
+      amount: 1
+      permission: slot.sixteen
+      name: Locked Slot
+      
+    17:
+      item: 68
+      amount: 1
+      permission: slot.seventeen
+      name: Locked Slot
+      
+    18:
+      item: 68
+      amount: 1
+      permission: slot.eightteen
+      name: Locked Slot
+      
+    19:
+      item: 68
+      amount: 1
+      permission: slot.nineteen
+      name: Locked Slot
+      
+    20:
+      item: 68
+      amount: 1
+      permission: slot.twenty
+      name: Locked Slot
+      
+    21:
+      item: 68
+      amount: 1
+      permission: slot.twentyone
+      name: Locked Slot
+    22:
+      item: 68
+      amount: 1
+      permission: slot.twentytwo
+      name: Locked Slot
+      
+    23:
+      item: 68
+      amount: 1
+      permission: slot.twentythree
+      name: Locked Slot
+      
+    24:
+      item: 68
+      amount: 1
+      permission: slot.twentyfour
+      name: Locked Slot
+      
+    25:
+      item: 68
+      amount: 1
+      permission: slot.twentyfive
+    26:
+      item: 68
+      amount: 1
+      permission: slot.twentysix
+      name: Locked Slot
+      
+    27:
+      item: 68
+      amount: 1
+      permission: slot.twentyseven
+      name: Locked Slot
+      
+    28:
+      item: 68
+      amount: 1
+      permission: slot.twentyeight
+      name: Locked Slot
+      
+    29:
+      item: 68
+      amount: 1
+      permission: slot.twentynine
+      name: Locked Slot
+      
+    30:
+      item: 68
+      amount: 1
+      permission: slot.thirty
+      name: Locked Slot
+      
+    31:
+      item: 68
+      amount: 1
+      permission: slot.thirtyone
+      name: Locked Slot
+      
+    32:
+      item: 68
+      amount: 1
+      permission: slot.thirtytwo
+      name: Locked Slot
+    33:
+      item: 68
+      amount: 1
+      permission: slot.thirtythree
+      name: Locked Slot
+    34:
+      item: 68
+      amount: 1
+      permission: slot.thirtyfour
+      name: Locked Slot
+    35:
+      item: 68
+      amount: 1
+      permission: slot.thirtyfive
+      name: Locked Slot
+backpacks:
+    1:
+      slots:
+        - 
+      recipe:
+        - 
+      item: 
+      permission: backpack.small
+      name: Backpack
