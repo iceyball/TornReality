@@ -18,6 +18,10 @@ PKP:
         Projectile_Damage: 16
         Bullet_Spread: 3
         Sounds_Shoot: ZOMBIE_WOOD-2-0-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 10
+        Delay_Between_Shots_In_Burst: 1
     Sneak:
         Enable: true
         No_Recoil: true
