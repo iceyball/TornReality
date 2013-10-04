@@ -10,12 +10,12 @@ PKP:
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
 
-        Delay_Between_Shots: 0
+        Delay_Between_Shots: 1
         Recoil_Amount: 0
-        Projectile_Amount: 15
+        Projectile_Amount: 1
         Projectile_Type: snowball
         Projectile_Speed: 40
-        Projectile_Damage: 12
+        Projectile_Damage: 16
         Bullet_Spread: 3
         Sounds_Shoot: ZOMBIE_WOOD-2-0-0
     Sneak:
@@ -24,8 +24,8 @@ PKP:
         Bullet_Spread: 1
     Reload:
         Enable: true
-        Reload_Amount: 200
-        Reload_Duration: 70
+        Reload_Amount: 100
+        Reload_Duration: 140
         Sounds_Reloading: LEVEL_UP-1-1-10,FIRE_IGNITE-1-2-28
     Firearm_Action:
         Type: slide
