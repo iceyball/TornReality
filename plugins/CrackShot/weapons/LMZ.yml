@@ -10,7 +10,7 @@ LMZ:
         Right_Click_To_Shoot: true
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
-        Delay_Between_Shots: 4
+        Delay_Between_Shots: 8
         Recoil_Amount: 1
         Projectile_Amount: 1
         Projectile_Type: snowball
@@ -25,7 +25,7 @@ LMZ:
     Burstfire:
         Enable: true
         Shots_Per_Burst: 2
-        Delay_Between_Shots_In_Burst: 4
+        Delay_Between_Shots_In_Burst: 6
     Reload:
         Enable: true
         Reload_Amount: 40
