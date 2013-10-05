@@ -4,25 +4,41 @@ mana-bar-size: 35
 color-full: 1
 color-empty: 0
 
+<<<<<<< HEAD
 default-max-mana: 200
+=======
+default-max-mana: 100
+>>>>>>> parent of 4b403dc... conflict resolving
 default-regen-amount: 5
 regen-interval: 100
 
 ranks:
     master:
+<<<<<<< HEAD
         max-mana: 300
+=======
+        max-mana: 200
+>>>>>>> parent of 4b403dc... conflict resolving
         regen-amount: 10
         prefix: "Mana:"
         color-full: 1
         color-empty: 0
     adept:
+<<<<<<< HEAD
         max-mana: 250
+=======
+        max-mana: 150
+>>>>>>> parent of 4b403dc... conflict resolving
         regen-amount: 7
         prefix: "Mana:"
         color-full: 1
         color-empty: 0
     novice:
+<<<<<<< HEAD
         max-mana: 200
+=======
+        max-mana: 100
+>>>>>>> parent of 4b403dc... conflict resolving
         regen-amount: 5
         prefix: "Mana:"
         color-full: 1
