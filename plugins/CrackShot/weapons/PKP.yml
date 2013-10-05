@@ -21,7 +21,7 @@ PKP:
     Burstfire:
         Enable: true
         Shots_Per_Burst: 10
-        Delay_Between_Shots_In_Burst: 1
+        Delay_Between_Shots_In_Burst: 2
     Sneak:
         Enable: true
         No_Recoil: true
