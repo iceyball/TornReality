@@ -1,0 +1,16 @@
+# Default Configuration File for JetPack
+
+Recipe:
+  Top Left: IRON_INGOT
+  Top Right: IRON_INGOT
+  Middle Left: IRON_INGOT
+  Middle Center: IRON_INGOT
+  Middle Right: IRON_INGOT
+  Bottom Left: BLAZE_ROD
+  Bottom Center: REDSTONE
+  Bottom Right: BLAZE_ROD
+  Top Center: REDSTONE
+Fuel: COAL
+Power Gained Per Fuel: 10
+Fuel Capacity: 8
+Allow fall damage while wearing the jetpack: true
